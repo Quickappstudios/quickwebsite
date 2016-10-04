@@ -63,17 +63,33 @@ src: url("Oswald-Stencil.otf") format("opentype");
 ********************************************************************/
 
 .navbar {
+    width:100%;
     border-radius:0px;
     -moz-border-radius:0px;
     -webkit-border-radius:0px;
     color:white;
+    min-height:70px;
 }
 
 
+
+/* class to change navbar*/
 .bg-faded {
-    background-color: #313644!important;
     
+    background-color: #fff!important;
+   border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);
+   
+} 
+
+
+/*position of navbar*/
+
+ul.nav.navbar-nav {
+    padding-top: 20px;
 }
+
 
 
 li.nav-item.active {
@@ -83,15 +99,19 @@ li.nav-item.active {
 
 a.nav-link {
   
-    color: white!important;
-    font-size:20px;
+    color: black!important;
+    font-size:17px;
     padding-right:5%;
     font-family:'Oswald-Stencil'!important; 
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
   
 }
 
 
-/*dropdown menu*/
+/*dropdown menu class*/
 
 .dropdown-menu {
     position: absolute;
@@ -101,17 +121,26 @@ a.nav-link {
     display: none;
     float: left;
     min-width: 160px;
-    padding: 5px 0;
-    margin: 2px 0 0;
+   margin: 2px 0 0;
     font-size: 1rem;
     color: #373a3c;
     text-align: left;
     list-style: none;
-    background-color: #f88300!important;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.15);
     border-radius: .25rem;
+    float: left;
+   margin: 0;
+    padding: 0.75em 0;
+    font-size: 12px;
+    list-style: none;
+    background-color: #fff;
+    z-index: 1000;
+    border-radius: 4px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.25)!important;
 }
 
 
@@ -145,8 +174,13 @@ background-color: #313644!important;
 }
 
 
+
+
+/*toggle color*/
+
+
 button.navbar-toggler.hidden-sm-up {
-    color: white;
+    color: black;
 }
 
 
@@ -154,8 +188,7 @@ img.header-logo{
     
  margin-left:30%; 
     
-    
-    width:30%;
+width:30%;
     height:30%;
     
 }
