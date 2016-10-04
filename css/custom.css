@@ -1,0 +1,1572 @@
+/*
+ * General
+ */
+
+html,body{
+
+    height:100%;
+    background-color:#1e202c;
+     padding:0;
+    margin:0;
+
+}
+
+body{
+
+color:#fff!important;
+font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+
+a{
+
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+
+
+}
+
+p{
+font-family:'Open Sans'
+
+}
+
+
+
+.container-fluid{
+    
+    padding:0;
+    margin:0;
+}
+
+
+
+/********************************************************************
+*  CUSTOM FONTS
+********************************************************************/
+
+@font-face {
+font-family:Oswald-Stencil;
+src: url("Oswald-Stencil.otf") format("opentype");
+}
+
+
+
+/********************************************************************
+* Navigation
+********************************************************************/
+
+.navbar {
+    border-radius:0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+    color:white;
+}
+
+
+.bg-faded {
+    background-color: #313644!important;
+    
+}
+
+
+li.nav-item.active {
+    color: #aaafbd!important;
+}
+
+
+a.nav-link {
+  
+    color: white!important;
+    font-size:20px;
+    padding-right:5%;
+    font-family:'Oswald-Stencil'!important; 
+  
+}
+
+
+/*dropdown menu*/
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 1rem;
+    color: #373a3c;
+    text-align: left;
+    list-style: none;
+    background-color: #f88300!important;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+
+
+
+a#dropdownMenu1.dropdown-toggle.nav-link{
+    
+  background-color: #313644!important;  
+    
+}
+
+
+
+
+
+
+
+
+
+li.nav-item.btn-group{
+ background-color: #313644!important;
+   
+    
+}
+
+
+
+a#dropdownMenu1{
+background-color: #313644!important;
+
+}
+
+
+button.navbar-toggler.hidden-sm-up {
+    color: white;
+}
+
+
+img.header-logo{
+    
+ margin-left:30%; 
+    
+    
+    width:30%;
+    height:30%;
+    
+}
+
+
+
+
+/********************************************************************
+* HEADER
+********************************************************************/
+
+img.img-featured {
+    width: 100%!important;
+}
+
+
+button.play-btn {
+    border:0;
+    outline:none;
+    background:transparent!important;
+    max-width: 10%!important;
+    position: absolute;
+    top: 200px!important;
+    right: 130px;
+}
+
+
+
+
+iframe{
+    
+    
+    
+    
+    width:100%;
+    height:600px;
+    margin:0 uto;
+    display:block;
+}
+
+
+
+
+
+/********************************************************************
+* SECTION SEARCH
+********************************************************************/
+
+section#search{
+    
+    background-color:#353334!important;
+}
+
+
+
+img.img-keeps{
+    
+  width:100%!important;  
+    
+    
+    
+}
+
+
+
+/********************************************************************
+* SECTION VIDEO SEARCH
+********************************************************************/
+
+section#video-searching{
+  padding-top:50px;
+    
+    padding-bottom:50px
+    
+    
+}
+
+#video-searching h1{
+
+font-family:'Oswald-Stencil';  
+  font-size:40px;  
+    
+}
+
+
+video {
+    margin-top: -40px;
+    max-width: 80%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.video {
+  
+    width:100%;
+    height:100%;
+}
+
+
+
+ h1{
+    
+    padding-top:30px;
+    font-size:55px;
+    font-family:'Oswald';
+    text-align:center;
+    padding-bottom:30px;
+}
+
+
+
+
+/********************************************************************
+* VIDEO MARKETING
+********************************************************************/
+
+.video-smart-marketing {
+    
+padding-bottom:40px;
+    
+    
+    
+}
+
+
+section#video-smart-marketing h1{
+
+font-family:'Oswald-Stencil';  
+  font-size:40px;  
+    
+}
+
+.video-smart-marketing h1{
+    font-family:'Oswald-Stencil';  
+     padding-top:50px;
+    font-size:55px;
+    font-family:'Oswald';
+    text-align:center;
+    padding-bottom:30px;
+}
+
+
+
+
+/********************************************************************
+* Featured 1
+********************************************************************/
+
+
+section#featured{
+    
+    padding-top:40px;
+}
+
+img.featured1{
+    
+    width:100%;
+}
+
+
+
+/********************************************************************
+* Featured 2
+********************************************************************/
+
+section#featured2{
+    
+    padding-top:100px;
+    
+    
+    background-color:white;
+    
+  background:url('http://www.quickapps.ie/images/featured2.jpg')no-repeat; 
+   width:100%;
+height:600px;
+    
+}
+
+
+
+#featured2 h1{
+    
+    font-family:'Oswald-Stencil';
+  padding-bottom: 5px;
+    color: #f15a2b;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;  
+    
+    
+}
+
+
+#featured2 img.logo{
+    
+    width:30%;
+    padding-top:30px;
+    
+  margin-left:auto;
+    margin-right:auto;
+    display:block;
+    
+    }
+
+
+
+#featured2 h2.business{
+    color:white!important;
+    text-align:center;
+    font-size:30px;
+    font-family:'Oswald';
+    margin-left:auto!important;
+    margin-right:auto!important;
+    display:block;
+    margin-top:30px;
+    font-weight: 100;
+}
+
+
+
+#featured2 h2.magnet{
+    color:white!important;
+    text-align:center;
+    font-size:50px;
+    font-family:'Oswald';
+    margin-left:auto!important;
+    margin-right:auto!important;
+    display:block;
+}
+
+
+
+
+
+#featured2 h2{
+    
+  padding-bottom: 5px;
+    color: #c7c6c8;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    
+    
+}
+
+
+
+
+#featured2 h3{
+    
+    font-size:24px!important;
+    font-family:'Oswald';
+    text-align:center;
+    padding-bottom:30px;
+    color:#f15e2b;  
+    
+    
+    
+}
+
+
+
+p{
+  font-family:"open-sans";
+   padding-bottom: 25px;
+    color: #747486;
+    font-size: 14px;
+    line-height:25px;
+}
+    
+    
+    
+
+
+/********************************************************************
+* Featured3
+********************************************************************/
+
+
+
+section#featured{
+ 
+    
+     
+    
+    
+}
+
+flood section {
+    
+    
+    width: 100%;
+    padding: 4em 1.5% 2em 1.5%;
+    border-bottom: 1px solid #d6d8d9;
+}
+
+
+.flood {
+    position: relative;
+    z-index: 20;
+    background: #f2f4f5;
+    text-align: center;
+    min-width: 0;
+    
+}
+
+
+.service h1{
+    font-family:'Oswald-Stencil';
+    color:black;
+}
+
+
+
+
+/********************************************************************
+* Featured CONTENT 
+********************************************************************/
+
+
+section#featured-content{
+
+    
+   background-color:#F2F4F5;
+    
+    
+    
+   
+   
+}
+
+
+
+
+
+.col-md-3{
+     padding-top:30px;
+     padding-bottom:30px;
+  border-right:1px solid grey; 
+background-color:#F2F4F5;
+    
+}
+
+#featured-content h1{
+font-family:'Oswald-Stencil';
+  color:#1e202c;
+    font-size:30px;
+    font-family:'Oswald';
+    text-align:center;
+    padding-bottom:15px;
+    
+}
+
+
+
+#featured-content p{
+    
+   font-family:'open-sans'; 
+  text-align:center;
+    
+}
+
+
+
+
+
+
+/********************************************************************
+* SNAP THE APP
+********************************************************************/
+section#snap-app{
+    
+  padding-top:90px; 
+    padding-bottom:50px; 
+    
+}
+
+
+
+/*heading*/
+
+h1.easyhead{
+font-family:'Oswald-Stencil';  
+font-size:50px;
+}
+
+
+img.img-android {
+    max-width: 40%!important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+section#snap-app h2{
+    font-family:'Oswald-Stencil'; 
+  padding-bottom:30px;  
+   
+}
+
+
+
+/*buttons*/
+
+
+img.btn-2 {
+    margin-bottom: 30px;
+    max-width: 25%;
+}
+
+
+img.btn-1{
+   
+    max-width: 25%;
+padding-right:15px;
+}
+
+
+
+
+/********************************************************************
+* Easy
+********************************************************************/
+
+
+section#easy{
+    
+  padding-top:90px;
+    background:url('http://www.quickapps.ie/images/featured2.jpg');
+    
+}
+
+
+/*heading*/
+h1.center{
+    
+ font-family:'Oswald-Stencil';  
+    
+    font-size:40px;
+    
+}
+
+
+
+
+h3.easy{
+   font-family:' Oswald-Stencil';
+padding-bottom: 5px;
+    color: #c7c6c8;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+
+img.easy-circle {
+    max-width: 80%;
+}
+
+
+i.fa.fa-qrcode.fa-3x {
+    max-width: 40%;
+    font-size: 35px;
+    margin-right: 15px;
+}
+
+
+
+i.fa.fa-share-alt.fa-3x{
+  max-width: 40%;
+    font-size: 35px;
+    margin-right: 15px;   
+    
+    
+}
+
+
+
+
+
+/********************************************************************
+* Geofence
+********************************************************************/
+
+section#geofence{
+    
+  padding-top:90px;
+    padding-bottom:90px;
+    
+    
+    
+}
+
+
+#geofence h1{
+    
+    font-family:'Oswald-Stencil';
+  padding-bottom: 5px;
+    color: #f15a2b;
+    font-size: 60px;
+    line-height:80px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;  
+    
+    
+}
+
+
+#geofence img.logo{
+    
+    width:30%;
+    padding-top:30px;
+    
+  margin-left:auto;
+    margin-right:auto;
+    display:block;
+    
+    }
+
+
+
+#geofence h2.business{
+    color:white!important;
+    text-align:center;
+    font-size:30px;
+    font-family:'Oswald';
+    margin-left:auto!important;
+    margin-right:auto!important;
+    display:block;
+    margin-top:30px;
+    font-weight: 100;
+}
+
+
+
+
+
+#geofence h2{
+    
+  padding-bottom: 5px;
+    color: #c7c6c8;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    
+    
+}
+
+
+
+
+#geofence h3{
+    
+    font-size:24px!important;
+    font-family:'Oswald';
+    text-align:center;
+    padding-bottom:30px;
+    color:#f15e2b;  
+    
+    
+    
+}
+
+
+
+#geofence p{
+    
+    line-height:25px;
+}
+
+
+
+
+
+/********************************************************************
+* Business Opportunity
+********************************************************************/
+
+
+
+section#businessoportunity1{
+    
+  padding-top:90px;
+    padding-bottom:90px;
+    
+    
+    
+}
+
+
+#businessoportunity1 h1{
+    
+    font-family:'Oswald-Stencil';
+  padding-bottom: 5px;
+    color: #f15a2b;
+    font-size: 60px;
+    line-height:80px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;  
+    
+    
+}
+
+
+#businessoportunity1 img.logo{
+    
+    width:30%;
+    padding-top:30px;
+    
+  margin-left:auto;
+    margin-right:auto;
+    display:block;
+    
+    }
+
+
+
+#businessoportunity1 h2.business{
+    color:white!important;
+    text-align:center;
+    font-size:30px;
+    font-family:'Oswald';
+    margin-left:auto!important;
+    margin-right:auto!important;
+    display:block;
+    margin-top:30px;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+#businessoportunity1 h2{
+    
+  padding-bottom: 5px;
+    color: #c7c6c8;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    
+    
+}
+
+
+
+
+#businessoportunity1 h3{
+    
+    font-size:24px!important;
+    font-family:'Oswald';
+    text-align:center;
+    padding-bottom:30px;
+    color:#f15e2b;  
+    
+    
+    
+}
+
+
+
+#businessoportunity1 p{
+    
+    line-height:25px;
+}
+
+
+
+
+.business-underline{
+    
+    font-weight: 900;
+    font-size:16px;
+    
+}
+
+
+
+
+/********************************************************************
+* FOUR BOXES
+********************************************************************/
+
+i.fa.fa-share-alt.fa-3x{
+           color: black;
+    /* width: 80%!important; */
+    font-size: 80px;
+    text-align: center;
+    margin-left: 35%;  
+            
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************************
+* Messages
+********************************************************************/
+
+
+section#messages {
+    
+    background:url('http://www.quickapps.ie/images/featured2.jpg')no-repeat; 
+    
+  padding-top:90px; 
+    
+    padding-bottom:90px; 
+    
+}
+
+#messages h1{
+    
+   font-family:'Oswald-Stencil';
+    font-size:50px;
+    text-align: center!important;
+    margin-left:15%;
+    
+}
+
+
+
+h2.lead{
+    text-align:center;
+    margin-left:15%;
+}
+
+
+
+
+/*container for fields*/
+.container-form {
+    margin-left: 15%;
+    
+}
+
+
+/*input field class*/
+
+.form-control {
+    padding: 25px;
+    background-color: #fff!important;
+    border: 1px solid #fab50f;
+    border-radius:15px;
+}
+
+
+
+input.btn.btn-secondary {
+    background-color: #F8940C;
+    font-family: 'oswald';
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    color: #fff;
+    width: 40%;
+    height: 50px;
+    font-size: 1.5em;
+}
+
+
+label {
+    margin-left: 35%;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+/********************************************************************
+* Find
+********************************************************************/
+
+section#find{
+    
+      
+    
+    
+}
+
+
+
+
+/********************************************************************
+* Find
+********************************************************************/
+
+section#map {
+    
+     padding-top:90px; 
+    
+    padding-bottom:90px;  
+    
+    
+}
+
+
+
+/********************************************************************
+* FOOTER
+********************************************************************/
+
+.section-wrapper {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+
+
+
+#social-wrapper {
+    background-color: ;
+}
+
+
+
+
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.social-icon {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    padding: 16px;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    font-size: 32px;
+    background-color: #f68307;
+    color: #FFF;
+    vertical-align:middle;
+    display:block;
+}
+
+
+.fa-lg {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
+
+
+/*display as inline*/
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+section#social-wrapper {
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+
+.text-center{
+    
+    text-align:center;
+}
+
+
+
+/*responsive queries*/
+
+@media(max-width: 1011px) {
+  
+    
+    /*navigation links*/
+   a.nav-link {
+       margin-top:15px;
+    font-size: 18px!important;
+} 
+    
+    img.img-featured {
+    margin-top: 70px;
+}
+    
+    
+    section#featured2 h1 {
+    font-size: 16px!importan;
+    font-size: 40px;
+    margin-left: 25%;
+}
+    
+    
+    #featured2 img.logo { 
+    font-size: 16px!importan;
+    font-size: 40px;
+    margin-left: 45%;
+}
+    
+    
+   h2.business {
+    padding-left: 15%;
+    /* margin-left: 5%!important; */
+}
+    
+    h2.magnet{
+    
+     padding-left: 15%;
+}
+    
+    
+    
+    
+    
+    
+    /*featured content*/
+    
+    
+    #featured-content h1{
+        
+     margin-top:60px;
+        text-align:center;
+        display:block;
+        margin-left:35%;
+        
+        
+    }
+    
+    
+    
+    
+    
+    /*easy the app section*/ 
+    
+    
+    
+    img.easy-circle {
+    max-width: 50%;
+    margin-left: 35%!important;
+}
+    
+    
+    
+    
+    
+    
+    i.fa.fa-share-alt.fa-3x {
+        color: #c7c6c8;
+        max-width: 40%;
+    font-size: 35px;
+    margin-right: 15px;
+        float:left;
+    
+}
+    
+    h3.easy{
+        
+        margin:0;
+        padding:0;
+    }
+    
+    
+    
+    
+    
+    
+    /*snap the app section*/
+    
+    
+    
+    img.img-android {
+    max-width: 30%!important;
+        
+        
+    }
+    
+    
+    img.btn-1 {
+    max-width: 20%;
+}
+    
+    
+    
+    img.btn-2 {
+        margin-top:35px;
+    max-width:20%;
+}
+    
+    
+    
+    
+/*geofencing features*/
+    
+    
+    #geofence h1 {
+        
+font-size:40px;
+line-height:50px;
+    }
+    
+    
+    
+    
+    #businessoportunity1 h1 {
+        
+     font-size:40px;
+line-height:50px;   
+        
+        
+    }
+    
+    
+    #messages h1{
+        
+        
+         font-size:40px;
+line-height:50px; 
+        
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
+
+@media(max-width: 990px) {
+    
+  a.nav-link {
+       margin-top:15px;
+    font-size: 16px!important;
+} 
+    
+    
+    #video-searching h1 {
+    font-family: 'Oswald-Stencil';
+    font-size: 30px;
+}
+    
+    
+    
+    section#video-smart-marketing h1 {
+        
+      font-size: 30px;  
+        
+    }
+    
+    section#featured2 h1{
+      font-size: 28px!important; 
+        line-height:30px;
+        
+        
+    }
+    
+    
+    
+}
+
+
+
+
+@media(max-width: 778px) {
+    
+      a.nav-link {
+          
+       margin-top:15px;
+    font-size: 11px!important;
+}
+    
+    
+    
+    
+    
+    section#featured2{
+        
+        background-image:none;
+        
+       background-color:#1e202c;
+        
+         }
+    
+    
+    
+    #featured2 h1{
+        
+        padding-right:15%;
+    }
+    
+    #featured2 h2.business{
+        
+        font-size:18px;
+    }
+    
+    
+    
+    #featured2 h2{
+        
+        text-align:center;
+        margin-left:15%;
+    }
+    
+    
+    #featured2 p{
+        
+        text-align:center;
+        margin-left:15%;
+    }
+    
+    
+    
+    img.logo{
+        max-width:20%;
+    }
+    
+    
+    section#geofence h2{
+       text-align:center!important;   
+        
+    }
+    
+    
+    section#geofence p{
+        
+      text-align:center!important;  
+        
+        
+        
+    } 
+    
+    
+    #geofence img.logo{
+        
+    width:20%;    
+        
+        
+    }
+    
+    
+    
+    
+   #businessoportunity1 img.logo{
+      width:20%;    
+        
+    }
+    
+    
+    #businessoportunity1 h2{
+      
+        text-align:center!important; 
+        
+        }
+    
+   #businessoportunity1 p{
+    
+    text-align:center!important; 
+    
+    }
+    
+    
+    
+    
+    /*greybox*/
+    
+    
+    i.fa.fa-share-alt.fa-3x{
+        font-size:50px;
+      padding-left:10%;
+        color:black;
+    }
+    
+    #featured-content h1{
+    margin-right:35%;
+    }
+    
+    #featured-content p{
+    font-size:18px;
+        line-height:28px;
+        padding-left:50px;
+        padding-right:50px;
+}
+    
+    
+    
+    
+    /*easy*/
+    
+    img.easy-circle{
+    
+    display: block;
+    margin-right: auto;
+        padding-right:10%;
+        
+        
+    }
+
+section#easy{
+        
+        background-image:none;
+        
+       background-color:#1e202c;
+        
+         }
+    
+    
+    
+    #easy h1{
+        
+        padding-right:15%;
+    }
+    
+    #easy h2.business{
+        
+        font-size:18px;
+    }
+    
+    
+    
+    #easy h2{
+        
+        text-align:center;
+        margin-left:15%;
+    }
+    
+    
+    #easy p{
+        
+        text-align:center;
+        margin-left:15%;
+    }
+    
+input.btn.btn-secondary {
+    
+    font-size: 1.3em!important;
+    
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+@media  (max-width: 543px) {
+    .navbar-nav {
+        padding-top: .425rem;
+        padding-left: 0.75rem;
+    }
+    .navbar-nav .nav-item {
+        float: none;
+    }
+    .navbar-brand {
+        display:none!important;
+    }
+    .navbar-brand,
+    .navbar-nav .nav-item {
+        display: block;
+    }
+    .navbar-nav .nav-item + .nav-item {
+        margin-left: 0;
+    }
+    .dropdown-menu {
+        position: relative;
+        float: none;
+    }
+    
+   img.featured1 {
+   display:none;
+}
+    
+    
+    #featured2 {
+        
+        
+        min-height:900px;
+    }
+    
+    
+    
+    
+    h1.center{
+        
+        font-size:30px;
+        text-align:center;
+        padding-left:30%;
+        line-height:30px;
+    }
+    
+    
+    
+    h1.easyhead{
+        
+     font-size:40px;
+        text-align:center;
+        
+        line-height:30px;
+    }
+    
+    
+    h2.easyhead{
+     font-size:24px!important;
+        text-align:center;
+        
+        line-height:30px;   
+        
+        
+    }
+    
+        
+    
+    
+    section#geofence{
+        
+        padding-top:0px;
+    }
+    
+    
+    section#businessoportunity1{
+        
+         padding-top:0px;
+        
+    }
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+@media screen (max-width: 364px) {
+    .navbar-nav {
+        padding-top: .425rem;
+        padding-left: 0.75rem;
+    }
+    .navbar-nav .nav-item {
+        float: none;
+    }
+    .navbar-brand {
+        float: right;
+    }
+    .navbar-brand,
+    .navbar-nav .nav-item {
+        display: block;
+    }
+    .navbar-nav .nav-item + .nav-item {
+        margin-left: 0;
+    }
+    .dropdown-menu {
+        position: relative;
+        float: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
